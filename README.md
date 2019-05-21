@@ -1,2 +1,11 @@
 # tng-recaptcha
-Curl base recaptcha V2 implementation for TNG genealogy v12 software
+Curl based recaptcha V2 implementation for TNG genealogy v12 software
+
+BACKGROUND:
+The existing recaptchalib.php library uses an implementation of "file_get_contents()" which doesn't return a verification response from Google when the recaptcha v2 option is activated in TNG version 12.
+
+PROPOSED SOLUTION:
+By substituting the file_get_contents() implementation with a curl implementation a verification response is received from Google which is used to permit the sending of the suggestion email when the recaptcha is solved succesfully.
+
+DISCLAIMER AND COPYRIGHT ACKNOWLEDGEMENTS
+The specific solution suggested is a modification to existing code owned and maintained by their respective owners and is provided with no guarantees whatsoever and is used at the user's own risk.
