@@ -9,3 +9,4 @@ By substituting the file_get_contents() implementation with a curl implementatio
 
 DISCLAIMER AND COPYRIGHT ACKNOWLEDGEMENTS
 The specific solution suggested is a modification to existing code owned and maintained by their respective owners and is provided with no guarantees whatsoever and is used at the user's own risk.
+In respect of potential copyright issues only minimal parts of the existing code is included to assist in identification of the areas where modifications have been introduced as part of this solution.
