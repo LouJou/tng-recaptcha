@@ -23,7 +23,9 @@ if($tngSiteKey && $tngSecret) {
     if ($_POST["g-recaptcha-response"]) {
 
  		// Curl implementation LJoubert - 21 May 2019 - Github LouJou - TNG Recaptcha V2
-		// based on code from ??? found online
+		// in part based on curl example code from this thread
+                // https://stackoverflow.com/questions/49695936/file-get-contents-and-curl-in-php?rq=1
+
 
 		$curl = curl_init();
 
